@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 html,body{
@@ -33,6 +33,26 @@ html,body{
     border-radius: 50px;
     margin: 0 7px;
     font-weight: 600;
+}
 
+#center{
+    height: calc(100% - 100px);
+    width: 100%;
+    position: relative;
+    padding: 10px 20px;
+
+}
+
+#center h1{
+    font-size: 110px;
+    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, 0);
+    font-weight: 900;
+    font-style: italic;
+    
 
 }
