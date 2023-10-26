@@ -39,20 +39,86 @@ html,body{
     height: calc(100% - 100px);
     width: 100%;
     position: relative;
-    padding: 10px 20px;
+    padding: 12px 20px;
 
 }
 
-#center h1{
-    font-size: 110px;
-    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+h1{
+    font-size: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     position: absolute;
     left: 50%;
     white-space: nowrap;
     transform: translate(-50%, 0);
     font-weight: 900;
+    z-index: 999;
     font-style: italic;
-    
+}
 
+
+#img{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 65%;
+    width: 69%;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+#img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 90% 77%;
+}
+
+button{
+    margin-top: 2px;
+    background-color: rgb(114, 176, 52);
+    padding: 10px 32px;
+    font-size: 16px;
+    position: absolute;
+    right: 10%;
+    top: 27%;
+    transform: rotate(-5deg);
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 50%;
+    text-transform: capitalize;
+    border: 2px solid #000;
+}
+
+#socks{
+    height: 200px;
+    width: 230px;
+    background-size: cover;
+    background-position: bottom;
+    z-index: 99;
+    background-image: url(https://media.happysocks.com/images/BDO01-9350_2_M_C.jpg?width=640&format=pjpg&quality=60&auto=webp&bg-color=ffffff);
+    border: 2px solid #000;
+    position: absolute;
+    top: 23%;
+    left: 9%;
+    transform: rotate(5deg);
+
+}
+
+#socks::after{
+    content: "";
+    height: 200px;
+    position: absolute;
+    width: 230px;
+    z-index: -1;
+    top: -18px;
+    background-image:url(https://media.happysocks.com/images/BDO01-9350_2_M_C.jpg?width=640&format=pjpg&quality=60&auto=webp&bg-color=ffffff);
+    right: -18px;
+    border: 2px solid #000;
+    background-size: cover;
+    background-position: center;
+    
 }
