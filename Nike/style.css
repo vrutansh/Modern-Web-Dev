@@ -66,20 +66,42 @@ html,body{
 #left{
     width: 40%;
     height: 100%;
-    padding: 69px 149px;
+    padding: 71px 149px;
     font-family:futura;
 }
 
 #left h5{
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 22px;
     color: #535353;
 }
 
 #left h1{
-     font-size: 50px;
+     font-size: 51px;
+     margin-bottom: 23px;
+     line-height: 50px;
      text-transform: uppercase;
      font-weight:bolder;
 }
+
+#left p{
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 20px;
+
+}
+
+#left button{
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    padding: 14px 25px;
+    border-top-left-radius: 0px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 
 #right{
     height: 100%;
