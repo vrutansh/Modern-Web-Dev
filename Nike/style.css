@@ -64,7 +64,7 @@ html,body{
 }
 
 #left{
-    width: 40%;
+    width: 38%;
     height: 100%;
     padding: 71px 149px;
     font-family:futura;
@@ -105,8 +105,54 @@ html,body{
 
 #right{
     height: 100%;
-    width: 60%;
-    background-color: red;
-    
+    width: 62%;
+    position: relative;
+    white-space: nowrap;
+    padding: 42px;
+    overflow-x: auto;
 
+}
+
+#right::-webkit-scrollbar{
+    display: none;
+}
+
+.elem{
+    height: 530px;
+    width: 380px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: -1%;
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #D0D4D5;
+    padding: 17px 55px;
+    border-radius: 6px;
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 17px 55px;
+    border-radius: 6px;
 }
