@@ -14,6 +14,12 @@ tl.from("#main h1",{
     stagger:0.3
 })
 
+tl.from("#main span",{
+    y:15,
+    repeat:-1,
+    yoyo:true
+})
+
 tl.from("#main>img",{
     scale:0,
     opacity:0,
@@ -27,7 +33,7 @@ tl.from("#main h5", {
 })
 tl.to("h5",{
     y:30,
-    repeat:-1,
+    // repeat:-1,
     yoyo:true,
     duration:0.6
 })
