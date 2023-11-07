@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
     font-family: aeonik;
 }
 
@@ -10,7 +11,79 @@ html,body{
     width: 100%;
 }
 
-#main{
+#page1{
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+    background-color: #000;
+}
+
+#nav{
+    height: 99px;
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav #navpt2{
+    display: flex;
+    gap: 50px;
+    margin-right: 530px;
+}
+
+#nav h1{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+#container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    padding: 42px 4px;
+}
+ 
+#left h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 115px;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    padding: 41px 35px;   
+}
+
+#right img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+#page2{
     width: 100%;
     height: 100%;
     background-color: #000;
