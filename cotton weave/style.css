@@ -148,7 +148,7 @@ html,body{
 #rotated{
     position: absolute;
     left: -9%;
-    bottom: 5%;
+    bottom: 6%;
     rotate: -90deg;
     transform-origin: 0 0;
     font-size: 28px;
